@@ -1,0 +1,51 @@
+.card {
+  box-sizing: border-box;
+  /* position: absolute; */
+  width: 588px;
+  height: 474px;
+  background: #ffffff;
+  border: 1px solid rgba(228, 228, 231, 0.8);
+  border-radius: 12px;
+  padding: 32px;
+  margin-top: 25px;
+}
+.card h2 {
+  /* font-family: 'Switzer Variable'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.card h1 {
+  /* font-family: 'Switzer Variable'; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ff5a5f;
+
+}
+.card span {
+  /* font-family: 'Plus Jakarta Sans'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a4a4a4;
+  margin-right: 20px;
+}
+.btn {
+  box-sizing: border-box;
+  padding: 4px 12px;
+  height: 26px;
+  background: #f7f7f7;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 8px;
+  font-weight: 400;
+}
+.img {
+  margin-top: 25px;
+}
