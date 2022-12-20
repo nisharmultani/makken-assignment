@@ -1,3 +1,8 @@
+import Img1 from "../public/image1.png"
+import Img2 from "../public/image2.png"
+import Img3 from "../public/image3.png"
+import Img4 from "../public/image4.png"
+
 import Image from "next/image";
 import style from "../styles/cards.module.css";
 export default function Card() {
@@ -20,7 +25,7 @@ export default function Card() {
             <div className={style.img}>
               <Image
                 className="rounded img-fluid"
-                src="/../public/image1.png"
+                src={Img1}
                 alt=""
                 height={280}
                 width={540}
@@ -46,7 +51,7 @@ export default function Card() {
             </div>
             <div className={style.img}>
               <Image
-                src="/../public/image2.png"
+                src={Img2}
                 alt=""
                 height={280}
                 width={540}
@@ -71,7 +76,7 @@ export default function Card() {
             </div>
             <div className={style.img}>
               <Image
-                src="/../public/image3.png"
+                src={Img3}
                 alt=""
                 height={280}
                 width={540}
@@ -96,7 +101,7 @@ export default function Card() {
             </div>
             <div className={style.img}>
               <Image
-                src="/../public/image4.png"
+                src={Img4}
                 alt="template image"
                 height={280}
                 width={540}
