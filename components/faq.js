@@ -40,7 +40,7 @@ export default function Faq() {
             aria-expanded="false"
             aria-controls="collapseExample1"
           >
-            What's in it for you?
+            What is in it for you?
           </a>
           <hr />
           <div className="collapse" id="collapseExample1">
@@ -147,7 +147,7 @@ export default function Faq() {
             aria-expanded="false"
             aria-controls="collapseExample5"
           >
-            What's in it for you?
+            What is in it for you?
           </a>
           <hr />
           <div className="collapse" id="collapseExample5">

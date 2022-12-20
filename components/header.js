@@ -7,7 +7,7 @@ export default function Header() {
           <h1>
             Scalable <span style={{ color: "#ff5a5f" }}> website </span>{" "}
             templates,
-            <br /> you'll Love, guaranteed.
+            <br /> you shall Love, guaranteed.
           </h1>
           <p>
             Visually-stunning, easy to customize site templates built with React

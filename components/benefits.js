@@ -5,7 +5,7 @@ export default function Benefits() {
       <div className={style.mainHeading}>
         <h1>Benefits</h1>
         <p>
-          Perks so good you'll never need to go anywhere else <br />
+          Perks so good you shall never need to go anywhere else <br />
           for your design. Seriously.
         </p>
       </div>
@@ -25,7 +25,7 @@ export default function Benefits() {
 
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
           <div className="col-sm-4">
@@ -38,7 +38,7 @@ export default function Benefits() {
             </div>
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
           <div className="col-sm-4">
@@ -51,7 +51,7 @@ export default function Benefits() {
             </div>
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
           <div className="col-sm-4" style={{ marginTop: "65px" }}>
@@ -67,7 +67,7 @@ export default function Benefits() {
             </div>
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
           <div className="col-sm-4" style={{ marginTop: "65px" }}>
@@ -83,7 +83,7 @@ export default function Benefits() {
             </div>
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
           <div className="col-sm-4" style={{ marginTop: "65px" }}>
@@ -99,7 +99,7 @@ export default function Benefits() {
             </div>
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you'd like.</p>
+              <p>Add as many design requests to your board as you did like.</p>
             </div>
           </div>
         </div>
