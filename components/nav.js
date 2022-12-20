@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Log from "../public/logo.png";
 export default function Nav() {
   return (
     <nav
@@ -10,12 +11,7 @@ export default function Nav() {
       }}
     >
       <div className="container-fluid">
-        <Image
-          src="/../public/logo.png"
-          alt="this is logo"
-          height={40}
-          width={41}
-        ></Image>
+        <Image src={Log} alt="this is logo" height={40} width={41}></Image>
         <button
           className="navbar-toggler"
           type="button"
@@ -48,10 +44,14 @@ export default function Nav() {
               </li>
               <li className="nav-item">
                 {/* <Link href="/about"> */}
-                <a className="nav-link text-black" href="#" style={{color:"#000000",fontSize:"16px",}}>
+                <a
+                  className="nav-link text-black"
+                  href="#"
+                  style={{ color: "#000000", fontSize: "16px" }}
+                >
                   Benefits
                 </a>
-                 {/* </Link> */}
+                {/* </Link> */}
               </li>
               <li className="nav-item">
                 <button
