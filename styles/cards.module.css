@@ -1,9 +1,9 @@
 .card {
   box-sizing: border-box;
   /* position: absolute; */
-  width: 588px;
-  height: 474px;
-  background: #ffffff;
+  /* width: 588px; */
+  /* height: 474px; */
+  /* background: #ffffff; */
   border: 1px solid rgba(228, 228, 231, 0.8);
   border-radius: 12px;
   padding: 32px;

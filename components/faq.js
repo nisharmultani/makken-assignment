@@ -1,99 +1,167 @@
+import style from "../styles/faq.module.css";
 export default function Faq() {
   return (
-    <div className="accordion w-100" id="basicAccordion">
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="headingOne">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#basicAccordionCollapseOne"
+    <div className="container">
+      <h1 className={style.header}>Frequently Ask Question</h1>
+
+      <div style={{ marginTop: "63px", padding: 30 }}>
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
             aria-expanded="false"
-            aria-controls="collapseOne"
+            aria-controls="collapseExample"
           >
-            Question #1
-          </button>
-        </h2>
-        <div
-          id="basicAccordionCollapseOne"
-          className="accordion-collapse collapse"
-          aria-labelledby="headingOne"
-          data-mdb-parent="#basicAccordion"
-          style={{}}
-        >
-          <div className="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is
-            shown by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            What is the date of commencement and process for Joining?
+          </a>
+          <hr />
+          <div className="collapse" id="collapseExample">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="headingTwo">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#basicAccordionCollapseTwo"
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample1"
+            role="button"
             aria-expanded="false"
-            aria-controls="collapseTwo"
+            aria-controls="collapseExample1"
           >
-            Question #2
-          </button>
-        </h2>
-        <div
-          id="basicAccordionCollapseTwo"
-          className="accordion-collapse collapse"
-          aria-labelledby="headingTwo"
-          data-mdb-parent="#basicAccordion"
-          style={{}}
-        >
-          <div className="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            What's in it for you?
+          </a>
+          <hr />
+          <div className="collapse" id="collapseExample1">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="headingThree">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#basicAccordionCollapseThree"
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample2"
+            role="button"
             aria-expanded="false"
-            aria-controls="collapseThree"
+            aria-controls="collapseExample2"
           >
-            Question #3
-          </button>
-        </h2>
-        <div
-          id="basicAccordionCollapseThree"
-          className="accordion-collapse collapse"
-          aria-labelledby="headingThree"
-          data-mdb-parent="#basicAccordion"
-          style={{}}
-        >
-          <div className="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            What is the date of commencement and process for Joining?
+          </a>
+          <hr />
+          <div className="collapse" id="collapseExample2">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample3"
+          >
+            What is in it for you?
+          </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
+          <hr />
+          <div className="collapse" id="collapseExample3">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample4"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample4"
+          >
+            What is the date of commencement and process for Joining?{" "}
+          </a>
+          <hr />
+          <div className="collapse" id="collapseExample4">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a
+            className={style.link}
+            data-bs-toggle="collapse"
+            href="#collapseExample5"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample5"
+          >
+            What's in it for you?
+          </a>
+          <hr />
+          <div className="collapse" id="collapseExample5">
+            <div className={style.ans}>
+              <ol>
+                <li>Weekly coaching and review </li>
+                <li>Guided exercises for building</li>
+                <li>product, business, and market</li>
+                <li>
+                  Experiential workshops, including minting tokens and setting
+                  up bots
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>

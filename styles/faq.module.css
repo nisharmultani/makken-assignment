@@ -1,0 +1,34 @@
+.header {
+  font-family: "Switzer Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.002em;
+  color: #000000;
+  margin-top: 112px;
+}
+.link {
+  text-decoration: none;
+  /* font-family: "Switzer Variable"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.link:hover {
+  color: none;
+}
+.hr {
+  border: 1px solid #f7f7f7;
+}
+.ans {
+  font-family: "Switzer Variable";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
