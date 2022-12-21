@@ -7,8 +7,8 @@ import style from "../styles/cards.module.css";
 
 export default function Card() {
   return (
-    <div className="container mt-5">
-      <div className="row">
+    <div className="container-fluid mt-5">
+      <div className="row m-0" style={{marginLeft:20}}>
         <div className="col-sm-6">
           <div className={style.card}>
             <h2 className={style.smallHeading}> NFT Landing page</h2>
@@ -26,13 +26,12 @@ export default function Card() {
             </div>
             <div className={style.img}>
               <Image
-                className="rounded img-fluid"
                 src={Img1}
                 alt="template image"
                 height={280}
                 width={540}
                 srcSet=""
-                // sizes="(max-width: 786px) 100vw,(max-width:1200px)50vw,33vh"
+                className="rounded img-fluid"
               ></Image>
             </div>
           </div>
@@ -53,7 +52,7 @@ export default function Card() {
             <div className={style.img}>
               <Image
                 src={Img2}
-                alt=""
+                alt="template image"
                 height={280}
                 width={540}
                 srcSet=""
@@ -78,7 +77,7 @@ export default function Card() {
             <div className={style.img}>
               <Image
                 src={Img3}
-                alt=""
+                alt="template image"
                 height={280}
                 width={540}
                 srcSet=""

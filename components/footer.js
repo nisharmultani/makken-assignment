@@ -5,9 +5,9 @@ export default function Footer() {
       <div className={`${style.main} container`}>
         <p className={style.copy}>© 2022 Makkken. All rights reserved</p>
         <div className={`${style.icon} float-end`}>
-          <i className={`${style.i} bi bi-facebook`}></i>
+          <i className={`${style.i} bi bi-instagram`}></i>
 
-          <i className={`${style.i} bi bi-whatsapp mx-2`}></i>
+          <i className={`${style.i} bi bi-twitter`} style={{marginLeft:"31px",marginRight:"30px"}}></i>
 
           <i className={`${style.i} bi bi-telegram`}></i>
         </div>

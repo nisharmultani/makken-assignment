@@ -9,31 +9,35 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-51%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
 .heading h1 {
-  font-family: "Switzer Variable";
+  font-family: 'Switzer Variable';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  letter-spacing: -0.005em;
-  color: #000000;
+  font-size: 56px;
+  line-height: 74px;  
+  text-align: center;
+  letter-spacing: 0;
 }
 .subTitle {
-  font-family: "Switzer Variable";
+  font-family: 'Switzer Variable';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
+  text-align: center;
   color: #767676;
 }
+  
 .craft {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 20px;
   color: #000000;
 }
 
@@ -58,6 +62,7 @@
   }
   .subTitle {
     font-size: 12px;
+    margin-left: 0;
   }
   .craft {
     font-size: 10px;

@@ -1,3 +1,4 @@
+
 import style from "../styles/faq.module.css";
 export default function Faq() {
   return (
@@ -15,10 +16,11 @@ export default function Faq() {
             aria-controls="collapseExample"
           >
             What is the date of commencement and process for Joining?
-          </a>
-          <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            <div className="float-end">
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
+         
           <hr />
           <div className="collapse" id="collapseExample">
             <div className={style.ans}>
@@ -44,10 +46,10 @@ export default function Faq() {
             aria-controls="collapseExample1"
           >
             What is in it for you?
-          </a>
           <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
           <hr />
           <div className="collapse" id="collapseExample1">
             <div className={style.ans}>
@@ -73,10 +75,11 @@ export default function Faq() {
             aria-controls="collapseExample2"
           >
             What is the date of commencement and process for Joining?
-          </a>
-          <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            <div className="float-end">
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
+         
           <hr />
           <div className="collapse" id="collapseExample2">
             <div className={style.ans}>
@@ -102,10 +105,11 @@ export default function Faq() {
             aria-controls="collapseExample3"
           >
             What is in it for you?
-          </a>
-          <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            <div className="float-end">
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
+        
           <hr />
           <div className="collapse" id="collapseExample3">
             <div className={style.ans}>
@@ -130,11 +134,12 @@ export default function Faq() {
             aria-expanded="false"
             aria-controls="collapseExample4"
           >
-            What is the date of commencement and process for Joining?{" "}
-          </a>
-          <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            What is the date of commencement and process for Joining?
+            <div className="float-end">
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
+          
           <hr />
           <div className="collapse" id="collapseExample4">
             <div className={style.ans}>
@@ -160,10 +165,11 @@ export default function Faq() {
             aria-controls="collapseExample5"
           >
             What is in it for you?
-          </a>
-          <div className="float-end">
-            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+            <div className="float-end">
+            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
           </div>
+          </a>
+         
           <hr />
           <div className="collapse" id="collapseExample5">
             <div className={style.ans}>

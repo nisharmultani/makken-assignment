@@ -20,6 +20,10 @@
   font-size: 20px;
   color: #a4a4a4;
 }
+.a {
+  margin-left: 31px;
+  margin-right: 30px;
+}
 @media (max-width: 360px) {
   .footer {
     padding: 10px;
@@ -40,7 +44,6 @@
   .icon {
     margin-top: -25px;
     margin-right: 20px;
-
   }
   .i {
     font-size: 16px;
