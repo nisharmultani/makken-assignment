@@ -4,7 +4,7 @@ export default function Faq() {
     <div className="container">
       <h1 className={style.header}>Frequently Ask Question</h1>
 
-      <div style={{ marginTop: "63px", padding: 30 }}>
+      <div className={style.faq}>
         <div>
           <a
             className={style.link}
@@ -16,6 +16,9 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
           </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
           <hr />
           <div className="collapse" id="collapseExample">
             <div className={style.ans}>
@@ -42,6 +45,9 @@ export default function Faq() {
           >
             What is in it for you?
           </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
           <hr />
           <div className="collapse" id="collapseExample1">
             <div className={style.ans}>
@@ -68,6 +74,9 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
           </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
           <hr />
           <div className="collapse" id="collapseExample2">
             <div className={style.ans}>
@@ -123,6 +132,9 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?{" "}
           </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
           <hr />
           <div className="collapse" id="collapseExample4">
             <div className={style.ans}>
@@ -149,6 +161,9 @@ export default function Faq() {
           >
             What is in it for you?
           </a>
+          <div className="float-end">
+            <i className="bi bi-caret-down-fill" style={{ opacity: "0.3" }}></i>
+          </div>
           <hr />
           <div className="collapse" id="collapseExample5">
             <div className={style.ans}>

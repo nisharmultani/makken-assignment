@@ -17,16 +17,15 @@
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 48px;
   letter-spacing: -0.005em;
   color: #000000;
 }
-.heading p {
+.subTitle {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 400;
-  font-size: 1vw;
-  /* line-height: 24px; */
+  font-size: 16px;
   color: #767676;
 }
 .craft {
@@ -36,4 +35,31 @@
   font-size: 18px;
   line-height: 26px;
   color: #000000;
+}
+
+@media (max-width: 360px) {
+  .header {
+    height: 200px;
+    background-image: none;
+    box-shadow: none;
+  }
+  .heading {
+    margin: 0;
+    top: 0;
+    left: 0;
+    -ms-transform: none;
+    transform: none;
+    text-align: none;
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .heading h1 {
+    font-size: 18px;
+  }
+  .subTitle {
+    font-size: 12px;
+  }
+  .craft {
+    font-size: 10px;
+  }
 }

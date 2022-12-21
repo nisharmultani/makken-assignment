@@ -1,15 +1,11 @@
 .card {
   box-sizing: border-box;
-  /* position: absolute; */
-  /* width: 588px; */
-  /* height: 474px; */
-  /* background: #ffffff; */
   border: 1px solid rgba(228, 228, 231, 0.8);
   border-radius: 12px;
   padding: 32px;
   margin-top: 25px;
 }
-.card h2 {
+.smallHeading {
   /* font-family: 'Switzer Variable'; */
   font-style: normal;
   font-weight: 600;
@@ -17,16 +13,14 @@
   line-height: 24px;
   color: #666666;
 }
-.card h1 {
+.heading {
   /* font-family: 'Switzer Variable'; */
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 34px;
-  color: #ff5a5f;
-
 }
-.card span {
+.md {
   /* font-family: 'Plus Jakarta Sans'; */
   font-style: normal;
   font-weight: 600;
@@ -48,4 +42,30 @@
 }
 .img {
   margin-top: 25px;
+}
+@media (max-width: 360px) {
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .smallHeading {
+    font-size: 16px;
+    line-height: 0px;
+  }
+  .img {
+    margin-top: 18px;
+  }
+  .md {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #a4a4a4;
+    margin-right: 10px;
+  }
 }

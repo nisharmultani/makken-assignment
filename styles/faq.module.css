@@ -9,6 +9,10 @@
   color: #000000;
   margin-top: 112px;
 }
+.faq {
+  margin-top: 63px;
+  padding: 30px;
+}
 .link {
   text-decoration: none;
   /* font-family: "Switzer Variable"; */
@@ -31,4 +35,23 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+@media (max-width: 360px) {
+  .header {
+    font-size: 38px;
+    margin-top: 55px;
+  }
+  .faq {
+    margin-top: 50px;
+    padding: 15px;
+  }
+  .link {
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 500;
+  }
+  .ans {
+    font-weight: 400;
+    font-size: 12px;
+  }
 }
