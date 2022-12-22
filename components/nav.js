@@ -1,16 +1,16 @@
-import Link from "next/link";
-import Image from "next/image";
-import Logo from "../public/logo.png";
+import logo from "../public/logo.png";
 import style from "../styles/nav.module.css";
+import Image from "next/image";
 export default function Nav() {
   return (
     <nav className={`${style.nav} navbar navbar-expand-lg container`}>
       <div className="container" style={{ marginLeft: 48 }}>
         <Image
-          src={"/../public/logo.png" || Logo}
+          src="/../public/logo.png"
           alt="this is logo"
           height={40}
           width={41}
+          srcSet=""
         ></Image>
         <button
           className="navbar-toggler"
@@ -37,7 +37,10 @@ export default function Nav() {
           </ul>
           <div style={{ marginRight: "49px" }}>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className={`${style.menu}nav-item`} style={{marginRight:10}}>
+              <li
+                className={`${style.menu}nav-item`}
+                style={{ marginRight: 10 }}
+              >
                 <a
                   className="nav-link"
                   aria-current="page"
