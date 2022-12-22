@@ -1,17 +1,13 @@
-import logo from "../public/logo.png";
 import style from "../styles/nav.module.css";
+import logo from "../public/Union.png";
 import Image from "next/image";
 export default function Nav() {
   return (
     <nav className={`${style.nav} navbar navbar-expand-lg container`}>
       <div className="container" style={{ marginLeft: 48 }}>
-        <Image
-          src="/../public/logo.png"
-          alt="this is logo"
-          height={40}
-          width={41}
-          srcSet=""
-        ></Image>
+        <div>
+          <Image src={logo} height={41} width={40} alt="logo" srcSer=""></Image>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
