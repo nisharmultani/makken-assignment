@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Log0 from "../public/logo.png";
+import Logo from "../public/logo.png";
 import style from "../styles/nav.module.css";
 export default function Nav() {
   return (
