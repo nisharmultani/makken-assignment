@@ -1,8 +1,7 @@
-
 import style from "../styles/faq.module.css";
 export default function Faq() {
   return (
-    <div className="container">
+    <div className={`${style.container} container`}>
       <h1 className={style.header}>Frequently Ask Question</h1>
 
       <div className={style.faq}>
@@ -17,11 +16,11 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-         
-          <hr />
+
+          <hr className={style.hr} />
           <div className="collapse" id="collapseExample">
             <div className={style.ans}>
               <ol>
@@ -46,11 +45,12 @@ export default function Faq() {
             aria-controls="collapseExample1"
           >
             What is in it for you?
-          <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+            <div className="float-end">
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-          <hr />
+          <hr className={style.hr} />
+
           <div className="collapse" id="collapseExample1">
             <div className={style.ans}>
               <ol>
@@ -76,11 +76,12 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-         
-          <hr />
+
+          <hr className={style.hr} />
+
           <div className="collapse" id="collapseExample2">
             <div className={style.ans}>
               <ol>
@@ -106,11 +107,12 @@ export default function Faq() {
           >
             What is in it for you?
             <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-        
-          <hr />
+
+          <hr className={style.hr} />
+
           <div className="collapse" id="collapseExample3">
             <div className={style.ans}>
               <ol>
@@ -136,11 +138,12 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-          
-          <hr />
+
+          <hr className={style.hr} />
+
           <div className="collapse" id="collapseExample4">
             <div className={style.ans}>
               <ol>
@@ -166,11 +169,12 @@ export default function Faq() {
           >
             What is in it for you?
             <div className="float-end">
-            <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
-          </div>
+              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+            </div>
           </a>
-         
-          <hr />
+
+          <hr className={style.hr} />
+
           <div className="collapse" id="collapseExample5">
             <div className={style.ans}>
               <ol>

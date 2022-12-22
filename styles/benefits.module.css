@@ -1,3 +1,6 @@
+.main {
+  margin-top: 110px;
+}
 .iconDiv {
   background: #f7f7f7;
   height: 100px;
@@ -6,11 +9,8 @@
   border-radius: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-41%, -68%);
   border: 1px solid #e3e3e3;
-}
-.main {
-  margin-top: 112px;
 }
 .maindiv {
   margin-top: 80px;
@@ -23,7 +23,6 @@
 }
 
 .mainHeading {
-  margin-bottom: 100px;
   text-align: center;
 }
 .mainHeading h1 {
@@ -31,10 +30,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 64px;
-  text-align: center;
-  letter-spacing: 0;
-  color: #000000;
+  line-height: 69px;
+  margin-left: 37px;
+  letter-spacing: 1.2px;
 }
 .mainHeading p {
   font-family: "Switzer Variable";
@@ -42,36 +40,40 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 15px;
   text-align: center;
-  color: #000000;
 }
 .row {
   margin-top: -62px;
-  width: 1100px;
-  margin-left: 80px;
+  width: 1012px;
+  margin-left: 114px;
 }
 
 .heading {
   text-align: center;
-  margin-top: 78px;
+  margin-top: 62px;
 }
 .heading h1 {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 36px;
+  
 }
 .heading p {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 29px;
   text-align: center;
   color: #666666;
-  max-width: 268px;
-  margin-left: 70px;
+  max-width: 297px;
+  margin: 0;
+  margin-left: 14px;
+  /* margin-top: -5px; */
+  letter-spacing: 0.3px;
 }
 .i {
   font-size: 35px;

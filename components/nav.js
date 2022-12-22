@@ -37,7 +37,7 @@ export default function Nav() {
           </ul>
           <div style={{ marginRight: "49px" }}>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className={`${style.menu}nav-item`}>
+              <li className={`${style.menu}nav-item`} style={{marginRight:10}}>
                 <a
                   className="nav-link"
                   aria-current="page"

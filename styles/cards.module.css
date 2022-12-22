@@ -1,9 +1,12 @@
+.row {
+  margin-left: 20px;
+}
 .card {
   box-sizing: border-box;
   border: 1px solid rgba(228, 228, 231, 0.8);
   border-radius: 12px;
   padding: 32px;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 .smallHeading {
   font-family: "Switzer Variable";
@@ -13,12 +16,16 @@
   line-height: 24px;
   color: #666666;
 }
+.b {
+  margin-top: 20px;
+}
 .heading {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
 }
 .md {
   font-family: "Plus Jakarta Sans";
@@ -37,18 +44,16 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
-  height: 26px;
   background: #f7f7f7;
   border: 1px solid #e4e4e7;
   border-radius: 4px;
   margin-right: 8px;
   padding-left: 12px;
   padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  margin-top: 0.5px;
 }
 .img {
-  margin-top: 28px;
+  margin-top: 24px;
   height: 280px;
   overflow: hidden;
   border-radius: 12px;
@@ -77,5 +82,10 @@
     line-height: 24px;
     color: #a4a4a4;
     margin-right: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1253px;
   }
 }

@@ -14,31 +14,39 @@
   text-align: center;
 }
 .heading h1 {
-  font-family: 'Switzer Variable';
+  font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 74px;  
+  line-height: 77px;
   text-align: center;
-  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: -11px;
+  margin-top: 8px;
+  letter-spacing: 0.6px;
+
 }
 .subTitle {
-  font-family: 'Switzer Variable';
+  font-family: "Switzer Variable";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 25px;
   text-align: center;
   color: #767676;
+  margin-top: 6px;
 }
-  
+
 .craft {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 15px;
   color: #000000;
+  margin-top: 27px;
+  margin-right:14px;
 }
 
 @media (max-width: 360px) {
