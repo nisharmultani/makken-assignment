@@ -3,6 +3,9 @@
   background: #ffffff;
   box-shadow: 0px 1px 0px rgba(227, 227, 227, 0.5);
 }
+.logo {
+  margin-left: 48px;
+}
 .menu {
   font-family: "Switzer Variable";
   font-style: normal;
@@ -13,4 +16,3 @@
   text-decoration: none;
   margin-right: 24px;
 }
-

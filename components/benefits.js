@@ -1,4 +1,12 @@
+import Image from "next/image";
 import style from "../styles/benefits.module.css";
+import search from "../public/icon/search.svg";
+import calendar from "../public/icon/calendar.svg";
+import check from "../public/icon/check.svg";
+import pen from "../public/icon/pen.svg";
+import people from "../public/icon/people.svg";
+import coin from "../public/icon/coin.svg";
+
 export default function Benefits() {
   return (
     <div className={`${style.main} container-xxl `}>
@@ -19,7 +27,13 @@ export default function Benefits() {
                 style={{ transform: "translate(-52px, -68px)" }}
               >
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-calendar3`}></i>
+                  <Image
+                    src={calendar}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="calendar icon"
+                  ></Image>
                 </div>
               </div>
             </div>
@@ -33,7 +47,13 @@ export default function Benefits() {
             <div className="position-relative ">
               <div className={style.iconDiv}>
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-coin`}></i>
+                  <Image
+                    src={coin}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="coin icon"
+                  ></Image>
                 </div>
               </div>
             </div>
@@ -50,7 +70,14 @@ export default function Benefits() {
                 style={{ transform: "translate(-50px, -68px)" }}
               >
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-search`}></i>
+                  {/* <i className={`${style.i} bi bi-search`}></i> */}
+                  <Image
+                    src={search}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="search icon"
+                  ></Image>
                 </div>
               </div>
             </div>
@@ -69,7 +96,13 @@ export default function Benefits() {
                 style={{ transform: "translate(-53px, -34px)" }}
               >
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-pen-fill`}></i>
+                  <Image
+                    src={pen}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="pen icon"
+                  ></Image>
                 </div>
               </div>
             </div>
@@ -85,7 +118,13 @@ export default function Benefits() {
                 style={{ transform: "translate(-38px, -34px)" }}
               >
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-stopwatch-fill`}></i>
+                  <Image
+                    src={check}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="check icon"
+                  ></Image>{" "}
                 </div>
               </div>
             </div>
@@ -101,7 +140,13 @@ export default function Benefits() {
                 style={{ transform: "translate(-50px, -34px)" }}
               >
                 <div className={style.icon}>
-                  <i className={`${style.i} bi bi-people-fill`}></i>
+                  <Image
+                    src={people}
+                    height={40}
+                    width={40}
+                    srcSet=""
+                    alt="people icon"
+                  ></Image>
                 </div>
               </div>
             </div>

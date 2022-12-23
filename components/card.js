@@ -1,7 +1,7 @@
-import Img1 from "../public/image1.png";
-import Img2 from "../public/image2.png";
-import Img3 from "../public/image3.png";
-import Img4 from "../public/image4.png";
+import Img1 from "../public/images/image1.png";
+import Img2 from "../public/images/image2.png";
+import Img3 from "../public/images/image3.png";
+import Img4 from "../public/images/image4.png";
 import Image from "next/image";
 import style from "../styles/cards.module.css";
 
