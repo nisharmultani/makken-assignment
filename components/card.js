@@ -14,7 +14,7 @@ export default function Card() {
           <Link href="/cardInfo" style={{ textDecoration: "none" }}>
             <div className={style.card}>
               <h2 className={style.smallHeading}> NFT Landing page</h2>
-              <h1 className={style.heading} style={{ color: "#ff5a5f" }}>
+              <h1 className={style.heading} >
                 Salient Web Template
               </h1>
               <div className={`${style.b} d-flex`}>

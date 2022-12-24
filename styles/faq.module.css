@@ -36,6 +36,10 @@
   line-height: 24px;
   color: #000000;
 }
+.ans ol li{
+  font-family: "Switzer-Regular";
+
+}
 @media (max-width: 360px) {
   .header {
     font-size: 38px;

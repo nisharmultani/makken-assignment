@@ -8,8 +8,8 @@
   padding: 32px;
   margin-top: 27px;
 }
+
 .smallHeading {
-  
   font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 600;
@@ -28,6 +28,10 @@
   line-height: 30px;
   color: #000000;
 }
+.card:hover .heading {
+  color: #ff5a5f;
+}
+
 .md {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
