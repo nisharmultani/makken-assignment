@@ -26,7 +26,7 @@
   text-align: center;
 }
 .mainHeading h1 {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -35,13 +35,15 @@
   letter-spacing: 1.2px;
 }
 .mainHeading p {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   margin-top: 15px;
   text-align: center;
+  letter-spacing: 0.3px;
+
 }
 .row {
   margin-top: -62px;
@@ -69,7 +71,7 @@
   line-height: 29px;
   text-align: center;
   color: #666666;
-  max-width: 297px;
+  max-width: 293px;
   margin: 0;
   margin-left: 14px;
   /* margin-top: -5px; */

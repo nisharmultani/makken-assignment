@@ -9,23 +9,24 @@
   margin-top: 27px;
 }
 .smallHeading {
-  font-family: "Switzer Variable";
+  
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   color: #666666;
 }
 .b {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 .heading {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: 1.5px;
+  color: #000000;
 }
 .md {
   font-family: "Plus Jakarta Sans";
@@ -34,7 +35,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #a4a4a4;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 .btn {
   font-family: "Plus Jakarta Sans";

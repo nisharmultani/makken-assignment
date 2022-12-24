@@ -1,12 +1,12 @@
 import style from "../styles/header.module.css";
 export default function Header() {
   return (
-    <div className="img-fluid">
+    <div >
       <div className={style.header}>
         <div className={style.heading}>
           <h1>
             Scalable
-            <span style={{ color: "#ff5a5f",letterSpacing:"1.5px"}}> website </span>
+            <span style={{ color: "#ff5a5f", fontWeight:"bolder"}}> website </span>
             templates, you'll Love, guaranteed.
           </h1>
           <p className={style.subTitle}>

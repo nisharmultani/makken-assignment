@@ -1,5 +1,5 @@
 .header {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -13,7 +13,7 @@
   margin-top: 64px;
 }
 .link {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   height: 30px;
   font-style: normal;
   font-weight: 600;
@@ -23,15 +23,13 @@
   text-decoration: none;
   letter-spacing: .5px;
 }
-.link:hover {
-  color: none;
-}
+
 .hr {
  opacity: 0.1;
 }
 
 .ans {
-  font-family: "Switzer Variable";
+  font-family: "Switzer-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

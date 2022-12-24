@@ -7,6 +7,9 @@
   margin-left: 48px;
 }
 .menu {
+  margin-right: 49px;
+}
+.menuLink {
   font-family: "Switzer Variable";
   font-style: normal;
   font-weight: 700;
@@ -14,5 +17,19 @@
   line-height: 24px;
   color: #000000;
   text-decoration: none;
-  margin-right: 24px;
+  margin-right: 14px;
+  letter-spacing: 1px;
+}
+.btn {
+  width: 141px;
+  height: 40px;
+  background: linear-gradient(90deg, #d33851 0%, #f83b41 100%);
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+@media (min-width: 1400px) {
+  .nav {
+    max-width: 1295px;
+  }
 }
