@@ -32,13 +32,13 @@ export default function Nav() {
         </ul>
         <div className={style.menu}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className={`${style.menuLink} nav-item`}>
+            <li className={`${style.Link} nav-item`}>
               <a className="nav-link text-black" aria-current="page" href="#">
                 Licenses
               </a>
             </li>
             <li
-              className={`${style.menuLink} nav-item`}
+              className={`${style.Link} nav-item`}
               style={{ marginRight: "14px" }}
             >
               <a className="nav-link text-black" aria-current="page" href="#">
