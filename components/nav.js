@@ -33,20 +33,20 @@ export default function Nav() {
         <div className={style.menu}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className={`${style.Link} nav-item`}>
-              <a className="nav-link text-black" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#">
                 Licenses
               </a>
             </li>
             <li
               className={`${style.Link} nav-item`}
-              style={{ marginRight: "14px" }}
+              style={{ marginRight: "24px" }}
             >
-              <a className="nav-link text-black" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#">
                 Benefits
               </a>
             </li>
             <li className="nav-item">
-              <button className={`${style.btn} btn text-white`}>
+              <button className={`${style.btn} btn`}>
                 Join us for free
               </button>
             </li>

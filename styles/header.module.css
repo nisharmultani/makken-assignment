@@ -23,18 +23,17 @@
   text-align: center;
 }
 .heading h1 {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 700;
   font-size: 56px;
   line-height: 74px;
-  margin: 0;
-  padding: 0;
   margin-top: 8px;
-  letter-spacing: 1.5px;
+  letter-spacing: -0.005em;
+  color: #000000;
 }
 .subTitle {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -44,18 +43,16 @@
   letter-spacing: -0.-15px;
 }
 .heading span{
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
 }
 .craft {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 15px;
   color: #000000;
-  margin-top: 29px;
-  margin-right: 11px;
-  letter-spacing: -0.020em;
+  margin-top: 24px;
+  line-height: 26px;
 }
 
 /* @media (max-width: 360px) {

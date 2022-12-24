@@ -1,12 +1,14 @@
 import style from "../styles/header.module.css";
 export default function Header() {
   return (
-    <div >
+    <div>
       <div className={style.header}>
         <div className={style.heading}>
           <h1>
-            Scalable
-            <span style={{ color: "#ff5a5f", fontWeight:"bolder"}}> website </span>
+            Scalable 
+            <span style={{ color: "#ff5a5f"}}>
+              website
+            </span> 
             templates, you'll Love, guaranteed.
           </h1>
           <p className={style.subTitle}>

@@ -1,5 +1,5 @@
 .main {
-  margin-top: 110px;
+  margin-top: 90px;
 }
 .iconDiv {
   background: #f7f7f7;
@@ -12,8 +12,13 @@
   transform: translate(-41%, -68%);
   border: 1px solid #e3e3e3;
 }
+
 .maindiv {
   margin-top: 80px;
+  cursor: pointer;
+}
+.maindiv:hover .iconDiv {
+  background-color: white;
 }
 .icon {
   position: absolute;
@@ -26,27 +31,27 @@
   text-align: center;
 }
 .mainHeading h1 {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 69px;
-  margin-left: 37px;
-  letter-spacing: 1.2px;
+  line-height: 64px;
+  letter-spacing: -0.002em;
+  color: black;
 }
 .mainHeading p {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 15px;
+  margin-top: 19px;
   text-align: center;
-  letter-spacing: 0.3px;
-
+  color: black;
+  margin: 0;
 }
 .row {
-  margin-top: -62px;
+  margin-top: -55px;
   width: 1012px;
   margin-left: 114px;
 }
@@ -56,26 +61,25 @@
   margin-top: 62px;
 }
 .heading h1 {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  
+  color: black;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .heading p {
-  font-family: "Switzer-Regular";
+  font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 26px;
   text-align: center;
   color: #666666;
   max-width: 293px;
   margin: 0;
-  margin-left: 14px;
-  /* margin-top: -5px; */
-  letter-spacing: 0.3px;
 }
 .i {
   font-size: 35px;

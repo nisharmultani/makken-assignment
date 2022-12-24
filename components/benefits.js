@@ -5,7 +5,7 @@ import calendar from "../public/icon/calendar.svg";
 import check from "../public/icon/check.svg";
 import pen from "../public/icon/pen.svg";
 import people from "../public/icon/people.svg";
-import coin from "../public/icon/coin.svg";
+import doller from "../public/icon/doller.svg";
 
 export default function Benefits() {
   return (
@@ -48,7 +48,7 @@ export default function Benefits() {
               <div className={style.iconDiv}>
                 <div className={style.icon}>
                   <Image
-                    src={coin}
+                    src={doller}
                     height={40}
                     width={40}
                     srcSet=""

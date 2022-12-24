@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Card() {
   return (
-    <div className={`${style.container} container mt-5`}>
+    <div className={`${style.container} container`}>
       <div className={`${style.row} row m-0`}>
         <div className="col-sm-6">
           <Link href="/cardInfo" style={{ textDecoration: "none" }}>

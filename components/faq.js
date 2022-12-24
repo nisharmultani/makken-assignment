@@ -1,4 +1,6 @@
 import style from "../styles/faq.module.css";
+import down from "../public/icon/down.svg";
+import Image from "next/image";
 export default function Faq() {
   return (
     <div className={`${style.container} container`}>
@@ -16,7 +18,13 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
 
@@ -46,7 +54,13 @@ export default function Faq() {
           >
             What is in it for you?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
           <hr className={style.hr} />
@@ -76,7 +90,13 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
 
@@ -107,7 +127,13 @@ export default function Faq() {
           >
             What is in it for you?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
 
@@ -138,7 +164,13 @@ export default function Faq() {
           >
             What is the date of commencement and process for Joining?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
 
@@ -169,7 +201,13 @@ export default function Faq() {
           >
             What is in it for you?
             <div className="float-end">
-              <i className="bi bi-chevron-down" style={{ opacity: "0.3" }}></i>
+              <Image
+                src={down}
+                height={13}
+                width={13}
+                srcSet=""
+                alt="down icon"
+              ></Image>
             </div>
           </a>
 
