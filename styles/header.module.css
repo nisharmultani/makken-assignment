@@ -44,6 +44,13 @@
 }
 .heading span{
   font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 74px;
+  margin-top: 8px;
+  letter-spacing: -0.005em;
+  margin:0 8px;
 }
 .craft {
   font-family: "Switzer-Variable";
