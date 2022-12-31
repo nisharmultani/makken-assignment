@@ -8,7 +8,7 @@ export default function Faq() {
 
       <div className={style.faq}>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample"
@@ -26,7 +26,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
 
           <hr className={style.hr} />
           <div className="collapse" id="collapseExample">
@@ -44,7 +44,7 @@ export default function Faq() {
           </div>
         </div>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample1"
@@ -62,7 +62,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
           <hr className={style.hr} />
 
           <div className="collapse" id="collapseExample1">
@@ -80,7 +80,7 @@ export default function Faq() {
           </div>
         </div>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample2"
@@ -98,7 +98,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
 
           <hr className={style.hr} />
 
@@ -117,7 +117,7 @@ export default function Faq() {
           </div>
         </div>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample3"
@@ -135,7 +135,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
 
           <hr className={style.hr} />
 
@@ -154,7 +154,7 @@ export default function Faq() {
           </div>
         </div>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample4"
@@ -172,7 +172,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
 
           <hr className={style.hr} />
 
@@ -191,7 +191,7 @@ export default function Faq() {
           </div>
         </div>
         <div>
-          <a
+          <div
             className={style.link}
             data-bs-toggle="collapse"
             href="#collapseExample5"
@@ -209,7 +209,7 @@ export default function Faq() {
                 alt="down icon"
               ></Image>
             </div>
-          </a>
+          </div>
 
           <hr className={style.hr} />
 

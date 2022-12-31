@@ -1,11 +1,11 @@
 import style from "../styles/nav.module.css";
 import Image from "next/image";
 import logo from "../public/images/logo.svg";
-import Notification from "../components/notification";
+// import Notification from "../components/notification";
 export default function Nav() {
   return (
     <div>
-      <Notification />
+      {/* <Notification /> */}
       <nav
         className={`${style.nav} bg-white navbar navbar-expand-lg container`}
       >

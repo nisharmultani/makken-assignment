@@ -68,34 +68,50 @@
   overflow: hidden;
   border-radius: 12px;
 }
-@media (max-width: 360px) {
-  .card {
-    padding: 20px;
-    margin-top: 20px;
-  }
-  .btn {
-    font-size: 10px;
-  }
-  .heading {
-    font-size: 18px;
-  }
-  .smallHeading {
-    font-size: 16px;
-    line-height: 0px;
-  }
-  .img {
-    margin-top: 18px;
-  }
-  .md {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 24px;
-    color: #a4a4a4;
-    margin-right: 10px;
-  }
-}
 @media (min-width: 1400px) {
   .container {
     max-width: 1253px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    margin-top: 30px;
+  }  
+  .card {
+    padding: 20px;
+    margin-bottom: 24px;
+  border-radius: 8px;
+
+  }
+  .img {
+    margin-top: 24px;
+    height: 115px;
+  }
+  .row {
+    margin-left: 0;
+  }
+  .heading {
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0;
+  }
+  .smallHeading {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+  }
+  .md {
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 8px;
+  }
+  .btn {
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 12px;
+    padding: 2px 8px 2px 8px;
   }
 }

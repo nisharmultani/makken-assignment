@@ -1,10 +1,15 @@
-import Img1 from "../public/images/image1.png";
-import Img2 from "../public/images/image2.png";
-import Img3 from "../public/images/image3.png";
-import Img4 from "../public/images/image4.png";
 import Image from "next/image";
 import style from "../styles/cards.module.css";
 import Link from "next/link";
+import card1 from "../public/images/card1@2x.png";
+import card2 from "../public/images/card2@2x.png";
+import card3 from "../public/images/card3@2x.png";
+import card4 from "../public/images/card4@2x.png";
+
+// import card1 from "../public/images/image1.png";
+// import card2 from "../public/images/image2.png";
+// import card3 from "../public/images/image3.png";
+// import card4 from "../public/images/image4.png";
 
 export default function Card() {
   return (
@@ -14,9 +19,7 @@ export default function Card() {
           <Link href="/cardInfo" style={{ textDecoration: "none" }}>
             <div className={style.card}>
               <h2 className={style.smallHeading}> NFT Landing page</h2>
-              <h1 className={style.heading} >
-                Salient Web Template
-              </h1>
+              <h1 className={style.heading}>Salient Web Template</h1>
               <div className={`${style.b} d-flex`}>
                 <span className={style.md}>Made With:</span>
                 <button type="button" className={style.btn}>
@@ -29,11 +32,17 @@ export default function Card() {
 
               <div className={style.img}>
                 <Image
-                  src={Img1}
+                  src={card1}
                   alt="template image"
                   height={280}
                   width={540}
-                  srcSet=""
+                  sizes="100vw"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  srcSet={card1}
+                  quality={100}
                   className="rounded img-fluid"
                 ></Image>
               </div>
@@ -56,11 +65,17 @@ export default function Card() {
               </div>
               <div className={style.img}>
                 <Image
-                  src={Img2}
+                  src={card2}
                   alt="template image"
                   height={280}
                   width={540}
-                  srcSet=""
+                  srcSet={card2}
+                  quality={100}
+                  sizes="100vw"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
                   className="img-fluid"
                 ></Image>
               </div>
@@ -83,11 +98,17 @@ export default function Card() {
               </div>
               <div className={style.img}>
                 <Image
-                  src={Img3}
+                  src={card3}
                   alt="template image"
                   height={280}
                   width={540}
-                  srcSet=""
+                  srcSet={card3}
+                  quality={100}
+                  sizes="100vw"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
                   className="rounded img-fluid"
                 ></Image>
               </div>
@@ -110,11 +131,17 @@ export default function Card() {
               </div>
               <div className={style.img}>
                 <Image
-                  src={Img4}
+                  src={card4}
                   alt="template image"
                   height={280}
                   width={540}
-                  srcSet=""
+                  srcSet={card4}
+                  quality={100}
+                  sizes="100vw"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
                   className="img-fluid"
                 ></Image>
               </div>

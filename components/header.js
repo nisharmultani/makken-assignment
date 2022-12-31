@@ -13,8 +13,7 @@ export default function Header() {
           </h1>
           <p className={style.subTitle}>
             Visually-stunning, easy to customize site templates built with React
-            and Next.js.
-            <br /> The perfect starting point for your next project.
+            and Next.js.<br/> The perfect starting point for your next project.
           </p>
           <p className={style.craft}>Crafted by professionals</p>
         </div>

@@ -1,5 +1,5 @@
-.main {
-  margin-top: 90px;
+.container {
+  margin-top: 88px;
 }
 .iconDiv {
   background: #f7f7f7;
@@ -12,7 +12,6 @@
   transform: translate(-41%, -68%);
   border: 1px solid #e3e3e3;
 }
-
 .maindiv {
   margin-top: 80px;
   cursor: pointer;
@@ -26,11 +25,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.mainHeading {
-  text-align: center;
+.title {
+  margin-bottom: 60px;
 }
-.mainHeading h1 {
+.title h1 {
   font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 700;
@@ -38,8 +36,9 @@
   line-height: 64px;
   letter-spacing: -0.002em;
   color: black;
+  margin-bottom: 19px;
 }
-.mainHeading p {
+.title p {
   font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 400;
@@ -51,7 +50,7 @@
   margin: 0;
 }
 .row {
-  margin-top: -55px;
+  margin-top: -12px;
   width: 1012px;
   margin-left: 114px;
 }
@@ -59,13 +58,14 @@
 .heading {
   text-align: center;
   margin-top: 62px;
+  margin-bottom: 50px;
 }
 .heading h1 {
   font-family: "Switzer-Variable";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 34px;
   color: black;
   margin: 0;
   margin-bottom: 10px;
@@ -84,44 +84,56 @@
 .i {
   font-size: 35px;
 }
-@media (max-width: 360px) {
-  .main {
-    margin-top: 30px;
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    margin-top: 38px;
   }
-  .mainHeading {
-    margin-bottom: 80px;
+  .title {
+    margin-bottom: 30px;
   }
-  .mainHeading h1 {
-    font-size: 42px;
+  .title h1 {
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: -0.002em;
+    margin-bottom: 0;
   }
-  .mainHeading p {
-    font-size: 16px;
+  .title p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 0;
   }
-  .i {
-    font-size: 22px;
+  .maindiv {
+    margin-top: 32px;
+    cursor: pointer;
   }
-  .iconDiv {
-    height: 85px;
-    width: 85px;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -22%); */
-    border: 1px solid #e3e3e3;
-    /* text-align: center; */
-  }
+
   .heading {
-    margin-top: 70px;
+    text-align: left;
+    margin-top: 62px;
   }
   .heading h1 {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 0;
+    text-align: center;
   }
   .heading p {
     font-size: 14px;
+    line-height: 26px;
+    max-width: 293px;
+    margin: 0;
   }
-  .maindiv {
-    margin-top: 65px;
+  .iconDiv {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+
   .row {
-    margin-top: -70px;
+    margin-top: -12px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 55px;
   }
 }

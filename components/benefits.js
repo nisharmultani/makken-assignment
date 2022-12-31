@@ -9,8 +9,8 @@ import doller from "../public/icon/doller.svg";
 
 export default function Benefits() {
   return (
-    <div className={`${style.main} container-xxl `}>
-      <div className={`${style.mainHeading} text-center`}>
+    <div className={`${style.container} container`}>
+      <div className={`${style.title} text-center`}>
         <h1>Benefits</h1>
         <p>
           Perks so good you'll never need to go anywhere else
@@ -18,14 +18,11 @@ export default function Benefits() {
           for your design. Seriously.
         </p>
       </div>
-      <div className={`${style.main} container `}>
+      <div className="container">
         <div className={`${style.row} row`}>
           <div className={`${style.maindiv} col-xl-4`}>
-            <div className="position-relative  ">
-              <div
-                className={style.iconDiv}
-                style={{ transform: "translate(-52px, -68px)" }}
-              >
+            <div className="position-relative">
+              <div className={style.iconDiv}>
                 <div className={style.icon}>
                   <Image
                     src={calendar}
@@ -40,7 +37,7 @@ export default function Benefits() {
 
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
           <div className={`${style.maindiv} col-xl-4`}>
@@ -60,15 +57,12 @@ export default function Benefits() {
 
             <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
           <div className={`${style.maindiv} col-xl-4`}>
-            <div className="position-relative  ">
-              <div
-                className={style.iconDiv}
-                style={{ transform: "translate(-50px, -68px)" }}
-              >
+            <div className="position-relative">
+              <div className={style.iconDiv}>
                 <div className={style.icon}>
                   {/* <i className={`${style.i} bi bi-search`}></i> */}
                   <Image
@@ -81,20 +75,14 @@ export default function Benefits() {
                 </div>
               </div>
             </div>
-            <div
-              className={style.heading}
-              style={{ marginLeft: 0, maxWidth: 317 }}
-            >
+            <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
           <div className={`${style.maindiv} col-xl-4`}>
             <div className="position-relative">
-              <div
-                className={style.iconDiv}
-                style={{ transform: "translate(-53px, -34px)" }}
-              >
+              <div className={style.iconDiv}>
                 <div className={style.icon}>
                   <Image
                     src={pen}
@@ -106,17 +94,14 @@ export default function Benefits() {
                 </div>
               </div>
             </div>
-            <div className={style.heading} style={{ marginTop: 105 }}>
+            <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
           <div className={`${style.maindiv} col-xl-4`}>
             <div className="position-relative  ">
-              <div
-                className={style.iconDiv}
-                style={{ transform: "translate(-38px, -34px)" }}
-              >
+              <div className={style.iconDiv}>
                 <div className={style.icon}>
                   <Image
                     src={check}
@@ -124,21 +109,18 @@ export default function Benefits() {
                     width={40}
                     srcSet=""
                     alt="check icon"
-                  ></Image>{" "}
+                  ></Image>
                 </div>
               </div>
             </div>
-            <div className={style.heading} style={{ marginTop: 105 }}>
+            <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
           <div className={`${style.maindiv} col-xl-4`}>
             <div className="position-relative  ">
-              <div
-                className={style.iconDiv}
-                style={{ transform: "translate(-50px, -34px)" }}
-              >
+              <div className={style.iconDiv}>
                 <div className={style.icon}>
                   <Image
                     src={people}
@@ -150,9 +132,9 @@ export default function Benefits() {
                 </div>
               </div>
             </div>
-            <div className={style.heading} style={{ marginTop: 105 }}>
+            <div className={style.heading}>
               <h1>Design Board</h1>
-              <p>Add as many design requests to your board as you did like.</p>
+              <p>Add as many design requests to your board as you'd like.</p>
             </div>
           </div>
         </div>
