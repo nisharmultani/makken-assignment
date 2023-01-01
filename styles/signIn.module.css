@@ -1,0 +1,140 @@
+.container {
+  margin-top: 112px;
+}
+.title {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #000000;
+}
+
+.welcome {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #767676;
+  margin-bottom: 44px;
+}
+.div {
+  position: absolute;
+  /* top: 0; */
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.btn {
+  font-family: "Switzer-Variable";
+  background: linear-gradient(90deg, #d33851 0%, #f83b41 100%);
+  margin-top: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 450px;
+  height: 48px;
+  max-width: 450px;
+  max-height: 48px;
+}
+.input {
+  margin-top: 12px;
+  font-family: "Switzer-Variable";
+  width: 450px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+}
+
+.login {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #767676;
+  text-decoration: none;
+}
+.or {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #767676;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.google {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 450px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.google h3 {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+ .forgate {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #767676;
+  text-decoration: none;
+}
+.joinLink {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #767676;
+  margin-top: 32px;
+  text-decoration: none;
+}
+.joinLink span {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #f83b41;
+  margin-top: 32px;
+}
+.link {
+   display: grid;
+  }

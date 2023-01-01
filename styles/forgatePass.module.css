@@ -1,0 +1,52 @@
+.container {
+  margin-top: 112px;
+}
+.div {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.btn {
+  font-family: "Switzer-Variable";
+  background: linear-gradient(90deg, #d33851 0%, #f83b41 100%);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 450px;
+  height: 48px;
+  max-width: 450px;
+  max-height: 48px; 
+}
+.input {
+  font-family: "Switzer-Variable";
+  width: 450px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.title {
+  margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.subTitle {
+    margin: 0;
+  font-family: "Switzer-Variable";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #767676;
+  max-width: 418px;
+  align-items: center;
+  margin-bottom: 40px;
+}

@@ -15,6 +15,13 @@ body {
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Switzer-Regular";
@@ -36,7 +43,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: black !important;
 }
 

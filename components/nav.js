@@ -2,6 +2,7 @@ import style from "../styles/nav.module.css";
 import Image from "next/image";
 import logo from "../public/images/logo.svg";
 import Notification from "../components/notification";
+import Link from "next/link";
 export default function Nav() {
   return (
     <div>
@@ -51,7 +52,11 @@ export default function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <button className={`${style.btn} btn`}>Join us for free</button>
+                <Link href="signUp">
+                  <button className={`${style.btn} btn`}>
+                    Join us for free
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>
